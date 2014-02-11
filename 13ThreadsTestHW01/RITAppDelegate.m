@@ -7,6 +7,7 @@
 //
 
 #import "RITAppDelegate.h"
+#import "RITStudent.h"
 
 @implementation RITAppDelegate
 
@@ -16,6 +17,25 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    RITStudent* student01   = [[RITStudent alloc] init];
+    RITStudent* student02   = [[RITStudent alloc] init];
+    RITStudent* student03   = [[RITStudent alloc] init];
+    RITStudent* student04   = [[RITStudent alloc] init];
+    RITStudent* student05   = [[RITStudent alloc] init];
+    
+    student01.name          = @"Student01";
+    student02.name          = @"Student02";
+    student03.name          = @"Student03";
+    student04.name          = @"Student04";
+    student05.name          = @"Student05";
+    
+    [student01 guessTheAnswer:33 withRangeFromLeft:0 toRight:100000000];
+    [student02 guessTheAnswer:33 withRangeFromLeft:0 toRight:100000000];
+    [student03 guessTheAnswer:33 withRangeFromLeft:0 toRight:100000000];
+    [student04 guessTheAnswer:33 withRangeFromLeft:0 toRight:100000000];
+    [student05 guessTheAnswer:33 withRangeFromLeft:0 toRight:100000000];
+    
     return YES;
 }
 

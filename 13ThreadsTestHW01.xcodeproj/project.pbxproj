@@ -19,6 +19,7 @@
 		3ED5192E18AAA8DB005BC7A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED5191618AAA8DB005BC7A4 /* UIKit.framework */; };
 		3ED5193618AAA8DB005BC7A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ED5193418AAA8DB005BC7A4 /* InfoPlist.strings */; };
 		3ED5193818AAA8DB005BC7A4 /* _3ThreadsTestHW01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5193718AAA8DB005BC7A4 /* _3ThreadsTestHW01Tests.m */; };
+		3ED5194318AAA9CD005BC7A4 /* RITStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5194218AAA9CD005BC7A4 /* RITStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		3ED5193318AAA8DB005BC7A4 /* 13ThreadsTestHW01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "13ThreadsTestHW01Tests-Info.plist"; sourceTree = "<group>"; };
 		3ED5193518AAA8DB005BC7A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3ED5193718AAA8DB005BC7A4 /* _3ThreadsTestHW01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3ThreadsTestHW01Tests.m; sourceTree = "<group>"; };
+		3ED5194118AAA9CD005BC7A4 /* RITStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RITStudent.h; path = ../RITStudent.h; sourceTree = "<group>"; };
+		3ED5194218AAA9CD005BC7A4 /* RITStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RITStudent.m; path = ../RITStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 		3ED5191818AAA8DB005BC7A4 /* 13ThreadsTestHW01 */ = {
 			isa = PBXGroup;
 			children = (
+				3ED5194118AAA9CD005BC7A4 /* RITStudent.h */,
+				3ED5194218AAA9CD005BC7A4 /* RITStudent.m */,
 				3ED5192118AAA8DB005BC7A4 /* RITAppDelegate.h */,
 				3ED5192218AAA8DB005BC7A4 /* RITAppDelegate.m */,
 				3ED5192418AAA8DB005BC7A4 /* Images.xcassets */,
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ED5192318AAA8DB005BC7A4 /* RITAppDelegate.m in Sources */,
+				3ED5194318AAA9CD005BC7A4 /* RITStudent.m in Sources */,
 				3ED5191F18AAA8DB005BC7A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
